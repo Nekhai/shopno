@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,0BAAY,CAAC;EACX,OAAO,EAAE,WAAW;CACrB;;AACA,AAAD,sBAAQ,CAAC;EACP,MAAM,EAAE,eAAe;CACxB;;AACA,AAAD,wBAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,kBAAkB,EAAE,OAAO;EAC3B,qBAAqB,EAAE,gBAAgB;EACvC,QAAQ,EAAE,IAAI;EACd,eAAe,EAAE,MAAM;CACxB",
+    "sources": [
+        "featured-works.scss"
+    ],
+    "names": [],
+    "file": "featured-works.css"
+}
