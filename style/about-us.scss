@@ -1,0 +1,108 @@
+.about-us {
+  &__container {
+    padding: 129px 0 113px 0;
+    background-color: #f8fafa;
+  }
+  &__title {
+    margin: 0 0 147px 0;
+  }
+  &__content {
+    margin: 0 200px 0 244px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__slider {
+    position: relative;
+    z-index: 1;
+    margin: 0 50px 0 0;
+  }
+  &__text {
+    flex: 0 1 474px;
+  }
+}
+.title {
+  &__text {
+    opacity: 0.9;
+    color: #000000;
+    font-family: "Montserrat", "sens-serif";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2.28px;
+    margin: 0 0 17px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    opacity: 0.62;
+    font-family: "Merriweather", "sens-serif";
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1.08px;
+    text-align: center;
+  }
+}
+.slider {
+  flex: 0 1;
+  &__img {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      background-color: #eff0f2;
+      width: 479px;
+      height: 412px;
+      z-index: -1;
+      top: 36px;
+      left: -44px;
+    }
+  }
+  &__img-work {
+    z-index: 2;
+  }
+  &__btn-wrap {
+    width: 55px;
+    margin: 46px auto 0;
+  }
+  &__btn {
+    width: 11px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: #d0d0d0;
+  }
+  &__btn-active {
+    background-color: #71f6eb;
+  }
+}
+.text {
+  text-align: left;
+  &__title {
+    padding: 0 0 21px 0;
+    opacity: 0.75;
+    font-family: "Merriweather", "sens-serif";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  &__content {
+    opacity: 0.74;
+    font-family: "Raleway", "sens-serif";
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    text-align: justify;
+  }
+  &__paragraph {
+    padding: 25px 0 0 0;
+  }
+  &__subtitle {
+    padding: 25px 0 17px 0;
+    opacity: 0.75;
+    font-family: "Merriweather", "sens-serif";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+}
