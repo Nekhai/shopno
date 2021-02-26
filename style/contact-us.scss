@@ -36,6 +36,9 @@
     letter-spacing: 2.16px;
     display: inline-block;
     font-weight: 700;
+    &:hover {
+      opacity: 0.5;
+    }
   }
   &__img {
     width: 121px;

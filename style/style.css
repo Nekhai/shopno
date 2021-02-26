@@ -208,6 +208,10 @@ h6 {
   font-weight: 700;
 }
 
+.contact-us__btn:hover {
+  opacity: 0.5;
+}
+
 .contact-us__img {
   width: 121px;
   height: 156px;
