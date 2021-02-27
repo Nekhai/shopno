@@ -84,9 +84,10 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-align: end;
           align-items: flex-end;
   position: fixed;
+  z-index: 100;
 }
 
-.header__container .header__logo {
+.header__logo {
   width: 113px;
   height: 46px;
   border: 6px solid #170f1c;
@@ -95,17 +96,17 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   line-height: 28px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-shadow: 0 0 2px rgba(21, 21, 22, 0.75);
   padding: 3px 0 0;
 }
 
-.header__container .header__logo span {
+.header__logo span {
   color: #8be6df;
   font-size: 20px;
 }
 
-.header__container .header__menu {
+.header__menu {
   width: 30px;
   height: 30px;
   display: -webkit-box;
@@ -117,14 +118,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 5px 0;
 }
 
-.header__container .header__menu .header__line {
+.header__line {
   width: 30px;
   height: 4px;
   background-color: #000;
   position: relative;
 }
 
-.header__container .header__menu .header__line:before {
+.header__line:before {
   content: "";
   width: 30px;
   height: 4px;
@@ -134,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 8px;
 }
 
-.header__container .header__menu .header__line:after {
+.header__line:after {
   content: "";
   width: 30px;
   height: 4px;
