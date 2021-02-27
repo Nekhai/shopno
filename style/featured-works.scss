@@ -1,0 +1,15 @@
+.featured-works {
+  &__container {
+    padding: 0 0 125px 0;
+  }
+  &__title {
+    margin: 129px 0 122px 0;
+  }
+  &__content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 370px);
+    grid-gap: 14px;
+    justify-content: center;
+  }
+}
