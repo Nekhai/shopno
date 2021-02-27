@@ -5,18 +5,16 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 50px 150px 0;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   position: fixed;
-  top: 0;
-  z-index: 50;
 }
 
-.header__logo {
+.header__container .header__logo {
   width: 113px;
   height: 46px;
   border: 6px solid #170f1c;
@@ -25,7 +23,7 @@
   text-transform: uppercase;
   line-height: 28px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 2px rgba(21, 21, 22, 0.75);
   padding: 3px 0 0;
 }
@@ -42,8 +40,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 0 5px 0;
 }
 
