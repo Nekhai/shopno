@@ -1,0 +1,85 @@
+.address__container {
+  background: url(../img/address/Bg_copy_4.png) 0 0/cover no-repeat, url(../img/address/christmas_snow_trees-wide.png) -80px -250px/108% auto no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 121px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.address__form-wrap {
+  width: 614px;
+  height: 460px;
+  -webkit-box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+          box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+  background-color: #021623;
+  opacity: 0.71;
+  margin: 0 26px 0 0;
+  padding: 47px 35px 0;
+}
+
+.address__input {
+  background: none;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 51px;
+  font-family: "Raleway", "sans-serif";
+  width: 100%;
+  border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+}
+
+.address__btn-wrap {
+  margin: 38px 0 0 0;
+}
+
+.address__btn {
+  width: 244px;
+  height: 53px;
+  border-radius: 2px;
+  background-color: #6eeee4;
+  color: #000000;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 2.16px;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.address__btn:hover {
+  background-color: #ffffff;
+}
+
+.address__textarea {
+  resize: none;
+  height: 120px;
+}
+
+.address__map {
+  width: 500px;
+  height: 460px;
+  -webkit-box-shadow: 0 0 3px rgba(21, 21, 21, 0.16);
+          box-shadow: 0 0 3px rgba(21, 21, 21, 0.16);
+  background-color: #021623;
+  opacity: 0.71;
+}
+
+.address__text {
+  color: #ffffff;
+  font-family: "Raleway", "sans-serif";
+  font-size: 15px;
+  line-height: 24px;
+  opacity: 0.7;
+  margin: 30px 0 0 30px;
+}
+
+.address__text-web {
+  margin: 22px 0 0 30px;
+}
+
+.address__img {
+  margin: 18px 22px 0;
+}
+/*# sourceMappingURL=address.css.map */
